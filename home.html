@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Health</b> Serve</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <!-- <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a> -->
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="https://miro.medium.com/max/1400/1*8tBvCjiZgM8g415xCqwswQ.gif" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Data</b></span> <span class="w3-hide-small w3-text-light-grey">Analysis</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Reports</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="report1.html">Report 1</a></div>
+        <img src="https://camo.githubusercontent.com/8a45c0936d6113b12b7b32942f448270eda8f714665ba8629f36c291f0ccd5fd/68747470733a2f2f70616e6461732d70726f66696c696e672e6769746875622e696f2f70616e6461732d70726f66696c696e672f646f63732f6173736574732f6c6f676f5f6865616465722e706e67" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="report2.html">Report2</a></div>
+        <img src="data:image/png;base64,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" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">GitHub Repository</div>
+        <img src="data:image/png;base64,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" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Jyputer Notebook</div>
+        <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2018/04/jupyter.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">GitHub Repository</div>
+        <img src="data:image/png;base64,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" alt="House" style="width:99%">
+      </div>
+    </div> -->
+    <!-- <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Jyputer Notebooks</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">GitHub Repository</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div> -->
+  </div>
+
+  <!-- About Section
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div> -->
+
+ 
+  
+
+
+<!-- End page content -->
+</div>
+
+<footer class="w3-center w3-black w3-padding-16" style="height: 200px;">
+    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+  </footer>
+
+
+</body>
+</html>
